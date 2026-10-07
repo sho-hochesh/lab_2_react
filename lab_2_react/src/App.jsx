@@ -1,11 +1,15 @@
 import Header from './components/Header';
-import Experience from './components/Experience';
+import Aboutme from './components/Aboutme';
+import Education from './components/Education';
+import Skills from './components/Skills';
 
 function App() {
   return (
     <div>
       <Header />
-      <Experience />
+      <Aboutme />
+      <Education />
+      <Skills />
     </div>
   );
 }
